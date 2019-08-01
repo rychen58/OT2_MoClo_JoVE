@@ -16,22 +16,22 @@ vhb = [buffers.wells(4), buffers.wells(5), buffers.wells(6), buffers.wells(7)]
 spm = [buffers.wells(8), buffers.wells(9)]
 eb = buffers.wells(10)
 
-#Add 500 無 ETR and 20 無 Mag-Bind
-p300.transfer(520, etr_mag.bottom(0.5), 
+#Add 500 繕L ETR and 20 繕L Mag-Bind
+p300.transfer(520, etr_mag.bottom(0.5))
 #Wait 5 min
 #Magnetize and discard supernatant
-#Demagnetize and add 500 無 ETR
+#Demagnetize and add 500 繕L ETR
 #Magnetize and discard supernatant
-#Demagnetize and add 700 無 VHB
+#Demagnetize and add 700 繕L VHB
 #Magnetize and discard supernatant
-#Demagnetize and add 700 無 VHB
+#Demagnetize and add 700 繕L VHB
 #Magnetize and discard supernatant
-#Demagnetize and aAdd 700 無 SPM
+#Demagnetize and aAdd 700 繕L SPM
 #Magnetize and discard supernatant
 #Wait 1 min
 #Discard last bit of supernatant
 #Wait 9 min
-#Demagnetize and add 50-100 無 Elution Buffer (might be able to add less)
+#Demagnetize and add 50-100 繕L Elution Buffer (might be able to add less)
 #Magnetize and remove and save supernatant (which contains dna)
 
 
